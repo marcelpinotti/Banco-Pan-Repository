@@ -1,5 +1,7 @@
 public class Funcao4 {
 
+    //Incremento
+
     static int myMethods(int x){
         return ++x;
     }
