@@ -1,3 +1,5 @@
+package funcoes;
+
 public class Funcao4 {
 
     //Incremento

@@ -1,3 +1,5 @@
+package funcoes;
+
 public class Funcao2 {
 
     static int myMethods(int x){

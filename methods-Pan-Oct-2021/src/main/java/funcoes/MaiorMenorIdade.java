@@ -1,3 +1,5 @@
+package funcoes;
+
 import javax.swing.*;
 
 public class MaiorMenorIdade {
