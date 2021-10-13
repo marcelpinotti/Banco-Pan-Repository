@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AcessoPublico" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="methods-Pan-Oct-2021" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
