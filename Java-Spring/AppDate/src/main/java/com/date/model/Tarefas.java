@@ -1,4 +1,4 @@
-package model;
+package com.date.model;
 
 import java.time.LocalDate;
 import java.util.Calendar;
@@ -20,7 +20,7 @@ public class Tarefas {
 	@Id
 	private Long id;
 	
-	@Column (nullable = false)	
+	@Column	
 	private String tarefa;
 	
 	@Temporal(TemporalType.TIMESTAMP)
@@ -31,6 +31,10 @@ public class Tarefas {
 
 	public Long getId() {
 		return id;
+	}
+	
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getTarefa() {
@@ -56,7 +60,4 @@ public class Tarefas {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-	
-	
-
 }
