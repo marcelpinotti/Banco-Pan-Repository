@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value="/api") //localhost:5000/api/hello
+@RequestMapping(value="/api1") //localhost:5000/api/hello
 public class RootController {
 
 	@GetMapping("/hello")

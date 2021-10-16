@@ -2,12 +2,14 @@ package com.date.model;
 
 import java.time.LocalDate;
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
@@ -24,10 +26,18 @@ public class Tarefas {
 	private String tarefa;
 	
 	@Temporal(TemporalType.TIMESTAMP)
-	private Calendar dataNascimentoCalendar;
+	private Calendar createdAt;
 	
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private LocalDate date;
+	
+	@Column
+	private Date criadoEm;
+	
+	@PrePersist
+	protected void onCreate() {
+		criadoEm = new Date();
+	}
 
 	public Long getId() {
 		return id;
@@ -45,12 +55,20 @@ public class Tarefas {
 		this.tarefa = tarefa;
 	}
 
-	public Calendar getDataNascimentoCalendar() {
-		return dataNascimentoCalendar;
+	public Calendar getCreatedAt() {
+		return createdAt;
 	}
 
-	public void setDataNascimentoCalendar(Calendar dataNascimentoCalendar) {
-		this.dataNascimentoCalendar = dataNascimentoCalendar;
+	public void setCreatedAt(Calendar createdAt) {
+		this.createdAt = createdAt;
+	}
+
+	public Date getCreated() {
+		return criadoEm;
+	}
+
+	public void setCreated(Date created) {
+		this.criadoEm = created;
 	}
 
 	public LocalDate getDate() {
