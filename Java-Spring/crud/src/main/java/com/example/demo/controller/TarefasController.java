@@ -54,5 +54,10 @@ public class TarefasController {
 	public ResponseEntity<TarefasModel> post(@RequestBody TarefasModel tarefinha) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(tarefasRepository.save(tarefinha));
 	}
+	
+	@GetMapping("/listar/tarefa/{tarefa}/{id}")
+	public ResponseEntity<List<TarefasModel>> getByTarefaAndId(@PathVariable String tarefa, @PathVariable Long id){
+		return ResponseEntity.ok(tarefasRepository.findByTarefaAndId(tarefa, id));		
+	}
 
 }

@@ -10,5 +10,15 @@ public class Caractere {
 			return digitado;
 		}
 	}
+	
+	public static String metodoDigitadoUm(String digitado) {
+		if(digitado == null) {
+			return null;
+		} else if (digitado.isEmpty()) {
+			return "Sem nada";
+		} else {
+			return digitado;
+		}
+	}
 
 }
