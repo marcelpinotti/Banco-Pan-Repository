@@ -8,7 +8,7 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.date</groupId>
+	<groupId>br.com.marcelpinotti</groupId>
 	<artifactId>AppDate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AppDate</name>
