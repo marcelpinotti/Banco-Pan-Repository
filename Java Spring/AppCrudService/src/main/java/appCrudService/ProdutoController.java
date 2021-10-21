@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("*")
 @RequestMapping("/api")
 public class ProdutoController {
 
@@ -19,15 +19,15 @@ public class ProdutoController {
         return new ResponseEntity<>(produtoService.getProdutos(), HttpStatus.OK);
     }
 
-    @DeleteMapping("/deletar")
+    @DeleteMapping("/deletar/{id}")
     public ResponseEntity<Object> delete(@PathVariable("id") String id) {
         produtoService.deleteProduto(id);
-        return new ResponseEntity<>("Prod Deletado!", HttpStatus.OK);
+        return new ResponseEntity<>("Produto deletado com sucesso!", HttpStatus.OK);
     }
 
     @PostMapping("/produtos")
     public ResponseEntity<Object> createProduto(@RequestBody Produto produto) {
         produtoService.createProduto(produto);
-        return new ResponseEntity<>("Prod criado", HttpStatus.CREATED);
+        return new ResponseEntity<>("Produto criado com sucesso!", HttpStatus.CREATED);
     }
 }
