@@ -36,6 +36,15 @@ public class ClienteController {
 	public ResponseEntity<List<ClienteModel>> filtroId(@PathVariable Integer tipo){
 		return ResponseEntity.ok(clienteRepository.procuraTipoPessoa(tipo));
 	}
-	
+
+	@GetMapping("listar/clientes/sql")
+	public List<ClienteModel> procuraTodos(){
+		return clienteRepository.procuraTodos();
+	}
+
+	@GetMapping("/listar/clientes/sql/alfabetico")
+	public List<ClienteModel> procuraTodosAlfabetico(){
+		return clienteRepository.procuraTodosAlfabetico();
+	}
 
 }
