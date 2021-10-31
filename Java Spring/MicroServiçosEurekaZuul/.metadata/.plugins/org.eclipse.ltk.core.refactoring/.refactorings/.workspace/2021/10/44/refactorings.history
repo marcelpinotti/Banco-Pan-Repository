@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;apiZuulGateway&apos;" deleteContents="true" description="Delete resource &apos;apiZuulGateway&apos;" element1="/apiZuulGateway" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1635470881678"/>&#x0A;<refactoring comment="Delete resource &apos;api-zuul-gateway&apos;" deleteContents="true" description="Delete resource &apos;api-zuul-gateway&apos;" element1="/api-zuul-gateway" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1635472306865"/>
+</session>
