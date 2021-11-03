@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Atividade-dois" />
+        <module name="atividade-json-Pan-Oct-2021" />
       </profile>
     </annotationProcessing>
   </component>
