@@ -6,7 +6,7 @@
 </div>
 
 
-<h4>Este repositório foi criado para registrar a trilha de estudos na Pan Academy.</h4>
+<h3>Este repositório foi criado para registrar a minha trilha de estudos na Pan Academy.</h3>
 
 
 

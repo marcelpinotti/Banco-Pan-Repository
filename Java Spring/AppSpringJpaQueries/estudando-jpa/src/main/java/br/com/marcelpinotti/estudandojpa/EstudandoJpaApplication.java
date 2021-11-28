@@ -1,0 +1,13 @@
+package br.com.marcelpinotti.estudandojpa;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EstudandoJpaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EstudandoJpaApplication.class, args);
+	}
+
+}

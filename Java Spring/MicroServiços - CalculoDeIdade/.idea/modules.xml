@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MicroServiços - CalculoDeIdade.iml" filepath="$PROJECT_DIR$/.idea/MicroServiços - CalculoDeIdade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cadastro-de-pessoas/calculadora-de-idade.iml" filepath="$PROJECT_DIR$/cadastro-de-pessoas/calculadora-de-idade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pessoas/pessoas.iml" filepath="$PROJECT_DIR$/pessoas/pessoas.iml" />
+    </modules>
+  </component>
+</project>
