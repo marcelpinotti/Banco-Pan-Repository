@@ -1,4 +1,4 @@
-package br.com.marcelpinotti.estudandojpa.repositorys;
+package br.com.marcelpinotti.estudandojpa.repositories;
 
 import br.com.marcelpinotti.estudandojpa.models.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;

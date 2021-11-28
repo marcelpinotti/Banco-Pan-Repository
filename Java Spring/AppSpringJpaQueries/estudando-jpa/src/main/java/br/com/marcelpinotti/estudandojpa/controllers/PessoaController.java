@@ -1,7 +1,7 @@
 package br.com.marcelpinotti.estudandojpa.controllers;
 
 import br.com.marcelpinotti.estudandojpa.models.Pessoa;
-import br.com.marcelpinotti.estudandojpa.repositorys.PessoaRepository;
+import br.com.marcelpinotti.estudandojpa.repositories.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
