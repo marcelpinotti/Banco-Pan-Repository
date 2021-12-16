@@ -25,7 +25,7 @@ class LambdaRdsMySqlHandler implements RequestHandler<Object, String> {
             logger.log("Sucesso: " + currentTime + "\n");
             
         } catch (SQLException e) {
-        	logger.log("Exce��o: " + e.getMessage() + "\n");
+        	logger.log("Exceção: " + e.getMessage() + "\n");
         }
 
         return currentTime;

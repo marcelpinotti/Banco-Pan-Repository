@@ -517,8 +517,3 @@ _______________
    - parte mais técnica e o time de devs tem discussões sobre as possíveis soluções.
    - possível fazer cortes das estórias tornando os objetivos mais alcançáveis;
      - com as estórias e as atividades definidas, são definidas as Sprints Backlog, PO valida quais itens são mais prioritários, definindo o objetivo principal da Sprint.
-
-
-
-***EM CONSTRUÇÃO***
-

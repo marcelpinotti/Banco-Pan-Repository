@@ -65,7 +65,7 @@
 
 
 
-<img src="../imagens/SBSI20-59-FIG1.jpg?raw=true" alt="Exemplo de um e-commerce utilizando Persistência Poliglota" style="zoom:120%;" />
+<img src="../imagens/SBSI20-59-FIG1.jpg?raw=true" alt="Exemplo de um e-commerce utilizando Persistência Poliglota"/>
 
 
 

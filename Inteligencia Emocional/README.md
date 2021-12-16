@@ -40,7 +40,4 @@
   - Autogestão - adaptabilidade, gerenciamento para conquista e panorama positivo;
   - Consciência social - é saber o que estamos transformando com nossas atitudes (empatia);
   - Gestão de relacionamento - consegue trabalhar em time, consegue gerenciar conflitos, que influencias as pessoas e se torna a figura de liderança indireta.
-- Mapear nossas ações emocionais durante o dia nos faz entender melhor como podemos proceder de forma mais assertiva em situações do cotidiano.  
-
-<h4> - Escuta Acertiva - </h4>
-
+- Mapear nossas ações emocionais durante o dia nos faz entender melhor como podemos proceder de forma mais assertiva em situações do cotidiano. 
